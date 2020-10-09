@@ -8,6 +8,7 @@ public class Url {
 		WebDriver driver = new ChromeDriver();
 		driver.navigate().to("https://www.facebook.com/");
 		driver.get("https://www.google.com/");
+		
 		driver.close();
 	}
 
